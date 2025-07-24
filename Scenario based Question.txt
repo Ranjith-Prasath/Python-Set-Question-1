@@ -1,0 +1,86 @@
+1.	Scenario: A system checks if a user is eligible to vote based on their age.
+ Write logic to ask the user for their age and determine if they are eligible to vote based on whether they are 18 or older.
+
+Solution : 
+ > ask the user to enter a age using input function
+ > if the age entered is over 18 print eligible 
+ > else print not eligible  
+
+
+2.	Scenario: A program processes a list of numbers and needs to find the largest value.
+ Write logic to identify and return the largest number from a given list.
+
+
+Solution : 
+ > get a list from the user
+ > write a function to findlargest in the list 
+ > use pre defined max function and return it to the main function
+ > call a function
+ > print the largest number using a called function variable name
+
+
+3.  A company provides employees with a 10% bonus if their salary exceeds $50,000.
+ Write logic to determine the bonus amount based on the given salary.
+
+Solution: 
+  > ask user to enter a salary 
+  > if the salary amount is more than $50000 add + 10 % to the existing amount
+  > else print not eligible
+
+4.	Scenario: A program evaluates a number to determine if it is even or odd.
+ Write logic to check whether a given number is even or odd.
+
+Solution : 
+  > get an input from the user
+  > if the number is divided by 2 , print even 
+  > else print odd
+
+5.	Scenario: A text-processing tool reverses a given word or sentence for formatting purposes.
+ Write logic to take a word or sentence as input and produce its reversed version.
+
+Solution : 
+  > get a sequence of letter as an input from the usee
+  > declare a variable and using [::-1] we can reverse n number of characters
+  > print the variable 
+
+6.	Scenario: A grading system determines whether a student has passed or failed based on their score.
+ Write logic to check if a student has passed a subject by scoring at least 40 marks.
+
+Solution : 
+  > get an mark input from the user
+  > if the student scores more than 40, print pass
+  > else print fail
+
+7.	Scenario: A retail store offers a 20% discount if a customer’s total order exceeds $100. Write logic to calculate the final amount to be paid after applying the discount.
+
+Solution : 
+  > get an total order amount from the user
+  > if the total amount order is over $100 
+  > subtract 20% from the total order amount 
+  > then print the discounted amount
+
+8.	Scenario: A banking system processes withdrawal requests and ensures the user has enough balance. Write logic to check if a user has enough balance before allowing a withdrawal and update the remaining balance accordingly.
+
+Solution : 
+  > get a balance amount from the user using input function
+  > if the withdrawal balance is lesser than the user balance , print remaining balance
+  > else print , insufficient balance
+
+9.	Scenario: A calendar system verifies whether a given year is a leap year based on standard leap year rules.
+ Write logic to determine whether a given year is a leap year.
+
+Solution : 
+
+  > get an input year from the user
+  > if the number is divisible 4 and ( not divisible by 100  (or) divisible by 400 ) , it's a leap year 
+  > print if it is a leap year
+
+10.	Scenario: A program filters out only even numbers from a given list.
+ Write logic to extract and return only the even numbers from a list.
+
+Solution : 
+
+  > get an input list from the user
+  > in for loop write the if condition for checking the temp variable number divided by 2 
+  > if divided , it shows the list of even numbers
+  > if no even numbers, return none
